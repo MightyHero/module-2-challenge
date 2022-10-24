@@ -26,23 +26,20 @@ img {
 }
 
 main {
+    max-width: 88%;
+    margin: 25px auto 45px auto;
+}
+
+.boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 2%;
-}
-
-.main-header {
-    display: flex;
     justify-content: space-between;
-    padding: 60px;
-    background: #13293d;
-    color: #fff;
+    align-items: stretch;
 }
 
-section {
-    flex: 70%;
-    background-color: #fff;
-    padding: 20px;
+.boxes h2 {
+    flex: 0 0;
 }
 
 footer {
