@@ -5,13 +5,17 @@
 body {
     font-family: Arial;
     margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: black;
 }
 
 header {
-    padding: 60px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 img {
@@ -33,13 +37,6 @@ main {
     padding: 60px;
     background: #13293d;
     color: #fff;
-}
-
-aside {
-    flex: 30%;
-    background-color: #b9c6ae;
-    padding: 20ps;
-    flex-wrap: wrap;
 }
 
 section {
