@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    background-color: #d8a47f;
+}
+
+nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 30%;
+    background-color: #b9c6ae;
+    padding: 20ps;
+    flex-wrap: wrap;
+}
+
+section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
