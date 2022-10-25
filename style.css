@@ -42,6 +42,48 @@ main {
     flex: 0 0;
 }
 
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #892206;
+    color: #ffffff;
+}
+
+.my-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #892206;
+    color: #ffffff;
+}
+
+.contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #892206;
+    color: #ffffff;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+.my-work h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
 footer {
     padding: 20px;
     text-align: center;
