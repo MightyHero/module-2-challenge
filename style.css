@@ -90,3 +90,7 @@ footer {
     background: #13293d;
     color: #fff;
 }
+
+.footer h3 {
+    font-size: 26px;
+}
